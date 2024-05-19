@@ -1,13 +1,13 @@
-import './App.css';
+import './App.module.css';
 import { useState, useRef } from 'react';
 import { useEffect } from 'react';
-import SearchBar from '../searchBar/SearchBar';
-import ImageGallery from '../imageGallery/ImageGallery';
-import { fetchImagesWithQuery } from '../api/images-api';
-import ErrorMessage from '../error/ErrorMessage';
-import LoaderComponent from '../loader/LoaderComponent';
-import LoadMoreBtn from '../loadMoreBtn/LoadMoreBtn';
-import ImageModal from '../imageModal/ImageModal';
+import SearchBar from '../SearchBar/SearchBar';
+import ImageGallery from '../ImageGallery/ImageGallery';
+import { fetchImagesWithQuery } from '../APIservices/APIservices';
+import ErrorMessage from '../ErrorMessage/ErrorMessage';
+import LoaderComponent from '../Loader/LoaderComponent';
+import LoadMoreBtn from '../LoadMoreBtn/LoadMoreBtn';
+import ImageModal from '../ImageModal/ImageModal';
 import { Image } from '../interfaceImage';
 
 
